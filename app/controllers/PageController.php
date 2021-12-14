@@ -5,7 +5,7 @@ class PageController {
      public static function home()
     {
         $articles = Article::all();
-        $title = 'Bienvenue';
+        $title = 'Au revoir';
         $subtitle = 'Entrez dans un monde so far away';
         require('app/views/pages/home.php');
     }
